@@ -5,11 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Parliament UK Frontend Exercise</title>
-
+  <link rel="stylesheet" type="text/css" href="./bundle.css">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
-<main></main>
-<script src="./bundle.js"></script>
+  <template id="members-card">
+    <div class="members-card">
+      <img class="members-card__avatar" src="" alt=""/>
+      <div class="members-card__body">
+        <span class="members-card__party"></span>
+        <h2 class="members-card__name"></h2>
+        <span class="members-card__constituency"></span>
+        <div class="members-card__info">No longer serving</div>
+      </div>
+    </div>
+  </template>
+  <main>
+    <nav>
+      <ul>
+        <li>
+          <a href="/?id=4514">Example: Keir Starmer</a>
+        </li>
+        <li>
+          <a href="/?id=4639">Example: Bim Afolami</a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <script src="./bundle.js"></script>
 </body>
 </html>
