@@ -71,7 +71,7 @@ body {
     min-width: 100px;
     border-radius: 100%;
     border: 5px solid $colour-grey-1;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 @media screen and (max-width: $breakpoint) {
     .members-card__avatar {
@@ -80,6 +80,7 @@ body {
         min-height: 60px;
         min-width: 60px;
         border-width: 3px;
+        margin-top: 15px;
     }
 }
 .members-card--labour .members-card__avatar {
@@ -97,15 +98,15 @@ body {
 }
 
 .members-card__party {
-    font-size: $type-primary-large-font-size;
-    line-height: $type-primary-large-line-height;
+    font-size: $type-secondary-large-font-size;
+    line-height: $type-secondary-large-line-height;
     color: $colour-grey-2;
     margin-bottom: 10px;
 }
 @media screen and (max-width: $breakpoint) {
     .members-card__party {
-        font-size: $type-primary-small-font-size;
-        line-height: $type-primary-small-line-height;
+        font-size: $type-secondary-small-font-size;
+        line-height: $type-secondary-small-line-height;
         margin-top: 15px;
         margin-bottom: 5px;
     }
@@ -147,7 +148,7 @@ body {
     background: $colour-grey-1;
     color: $colour-alert;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-radius: 8px;
 }
 @media screen and (max-width: $breakpoint) {
